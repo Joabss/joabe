@@ -29,13 +29,18 @@ layout: default
                 <p><span class="glyphicon glyphicon-time"></span> Posted on {{ page.date | date: "%B %d, %Y"}}</p>
 
                 <hr>
-
-                <!-- Preview Image -->
-                {% if page.image %}
-                <img class="img-responsive" src="{{ page.image }}" alt="{{ page.image }}">
+                <ul>
+                {% if page.frontend %}
+                    <li>
+                        Frontend&nbsp;&nbsp;<a href="{{ page.frontend }}"><i class="fa fa-github"></i></a>
+                    </li>
                 {% endif %}
-
-
+                {% if page.backend %}
+                    <li>
+                        Backend &nbsp;&nbsp;<a href="{{ page.backend }}"><i class="fa fa-github"></i></a>
+                    </li>
+                {% endif %}
+                </ul>
                 <hr>
 
                 <!-- Post Content -->

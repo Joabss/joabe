@@ -28,7 +28,7 @@ description:  # this means to ignore newlines until "baseurl:"
   and modern technologies such as Kafka, React.js with TypeScript, and Multi-Cloud. 
   Holds a Bachelor's degree in Computer Science from Universidade São Judas Tadeu."
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "https://joabss.github.io/joabe/" # the base hostname & protocol for your site, e.g. http://example.com
+url: "" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username:
 github_username:  joabss
 
@@ -43,5 +43,5 @@ defaults:
       type: "posts" # previously `post` in Jekyll 2.2.
     values:
       layout: "post"
-      author: "Joabe"
-      category: "GitHub"
+      author: "Joabe Souza"
+      category: "jekyll"
