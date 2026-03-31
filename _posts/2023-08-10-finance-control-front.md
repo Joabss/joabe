@@ -1,13 +1,13 @@
 ---
 layout: post
-title: Finance Control API Frontend
+title: 💸 Finance Control Frontend
 date: 2023-08-10 12:00
 author: Joabe Souza
-lead: Finance Control API Frontend
+lead: Finance Control Frontend
 github: https://github.com/Joabss/minhas-financas-app
 ---
 
-API para controle de finanças com controle de acesso
+API for financial management with access control.
 
 - **React JS**
 - **TypeScript**

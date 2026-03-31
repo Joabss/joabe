@@ -1,13 +1,13 @@
 ---
 layout: post
-title: Finance Control API Backend
-date: 2023-08-10 12:00
+title: 💸 Finance Control Backend
+date: 2023-08-09 12:00
 author: Joabe Souza
-lead: Finance Control API Backend
+lead: Finance Control Backend
 github: https://github.com/Joabss/minhas-financas-api
 ---
 
-API para controle de finanças com controle de acesso
+API for financial management with access control.
 
 - **Java**
 - **Spring Boot**
